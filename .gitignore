@@ -1,0 +1,6 @@
+.godot/
+tools/godot/
+godot-*.log
+*.tmp
+*.translation
+export_presets.cfg

@@ -1,0 +1,43 @@
+{
+  "lairs": {
+    "maw": {
+      "name": "Maw Lair",
+      "cost": 55,
+      "damage": 18,
+      "range": 150,
+      "fire_rate": 0.62,
+      "bullet_speed": 620,
+      "upgrade_base": 46,
+      "color": "#f97316",
+      "effect": "bleed",
+      "effect_power": 4.0,
+      "effect_duration": 2.0
+    },
+    "spore": {
+      "name": "Spore Choir",
+      "cost": 70,
+      "damage": 10,
+      "range": 205,
+      "fire_rate": 0.42,
+      "bullet_speed": 520,
+      "upgrade_base": 58,
+      "color": "#22c55e",
+      "effect": "slow",
+      "effect_power": 0.42,
+      "effect_duration": 2.8
+    },
+    "sigil": {
+      "name": "Hex Sigil",
+      "cost": 90,
+      "damage": 36,
+      "range": 180,
+      "fire_rate": 1.15,
+      "bullet_speed": 760,
+      "upgrade_base": 75,
+      "color": "#a855f7",
+      "effect": "shatter",
+      "effect_power": 5.0,
+      "effect_duration": 4.0
+    }
+  }
+}

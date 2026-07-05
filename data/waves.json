@@ -1,0 +1,8 @@
+{
+  "waves": [
+    { "count": 8, "interval": 0.95, "hp": 52, "speed": 90, "reward": 8 },
+    { "count": 12, "interval": 0.78, "hp": 74, "speed": 102, "reward": 10 },
+    { "count": 16, "interval": 0.64, "hp": 104, "speed": 112, "reward": 12 },
+    { "count": 20, "interval": 0.56, "hp": 140, "speed": 118, "reward": 14 }
+  ]
+}
