@@ -45,9 +45,12 @@ if not defined GODOT_EXE (
   exit /b 1
 )
 
-if not exist "%PROJECT_DIR%\.godot\imported" (
-  echo Importing Godot resources for first run...
-  "%GODOT_EXE%" --path "%PROJECT_DIR%" --import
+echo Importing Godot resources...
+"%GODOT_EXE%" --path "%PROJECT_DIR%" --import
+if errorlevel 1 (
+  echo Godot import failed.
+  pause
+  exit /b 1
 )
 
 start "" /D "%PROJECT_DIR%" "%GODOT_EXE%" --path "%PROJECT_DIR%" --scene "res://scenes/menu.tscn"

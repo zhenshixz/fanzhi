@@ -45,5 +45,13 @@ if not defined GODOT_EXE (
   exit /b 1
 )
 
+echo Importing Godot resources...
+"%GODOT_EXE%" --path "%PROJECT_DIR%" --import
+if errorlevel 1 (
+  echo Godot import failed.
+  pause
+  exit /b 1
+)
+
 start "" /D "%PROJECT_DIR%" "%GODOT_EXE%" --editor --path "%PROJECT_DIR%"
 exit /b 0

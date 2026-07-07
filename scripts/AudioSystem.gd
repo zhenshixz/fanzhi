@@ -13,8 +13,7 @@ func _ready() -> void:
 	_music = AudioStreamPlayer.new()
 	_music.name = "Music"
 	_music.stream = _load_first_existing([
-		"res://assets/audio/music/magic_girl_theme.wav",
-		"res://assets/audio/music/southern_gothic.mp3"
+		"res://assets/audio/music/magic_girl_theme.wav"
 	])
 	_music.volume_db = -12.0
 	add_child(_music)
