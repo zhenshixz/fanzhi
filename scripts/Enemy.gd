@@ -24,7 +24,7 @@ var armor_break := 0.0
 var _dead := false
 
 var _path_index := 0
-var _rig: FloatRig
+var _rig: Node2D
 var _texture: Texture2D
 var _wobble := 0.0
 
@@ -44,16 +44,37 @@ func setup(points: Array[Vector2], enemy_hp: float, enemy_speed: float, enemy_re
 
 func _ready() -> void:
 	z_index = 20
-	if ResourceLoader.exists("res://assets/images/hero_invader_cutout.png"):
+	var texture_path := _texture_path_for_title()
+	if ResourceLoader.exists(texture_path):
+		_texture = load(texture_path)
+	elif ResourceLoader.exists("res://assets/images/hero_invader_cutout.png"):
 		_texture = load("res://assets/images/hero_invader_cutout.png")
 	if _texture:
 		_rig = FloatRigScript.new()
-		_rig.setup(_texture, Vector2(0.044, 0.044), Color.WHITE if armor < 4.0 else Color("#fef3c7"), randf() * TAU)
+		_rig.setup(_texture, _texture_scale_for_title(), Color.WHITE if armor < 4.0 else Color("#fef3c7"), randf() * TAU)
 		_rig.bob_amount = 3.0
 		_rig.bob_speed = 4.0
 		_rig.shadow_offset = Vector2(0, 18)
 		add_child(_rig)
 	queue_redraw()
+
+
+func _texture_path_for_title() -> String:
+	match title:
+		"Shield Puff":
+			return "res://assets/images/xiaomox/enemies/08_purple_blob.png"
+		"Quick Star":
+			return "res://assets/images/xiaomox/enemies/06_yellow_blob.png"
+	return "res://assets/images/xiaomox/enemies/03_blue_slime.png"
+
+
+func _texture_scale_for_title() -> Vector2:
+	match title:
+		"Shield Puff":
+			return Vector2(0.86, 0.86)
+		"Quick Star":
+			return Vector2(0.94, 0.94)
+	return Vector2(0.96, 0.96)
 
 
 func _process(delta: float) -> void:
@@ -162,4 +183,8 @@ func _spawn_damage_text(value: float) -> void:
 	var label := FloatingTextScript.new()
 	label.global_position = global_position + Vector2(randf_range(-8.0, 8.0), -28.0)
 	label.setup(str(int(round(value))), Color("#fde68a"), 0.55)
-	get_tree().current_scene.add_child(label)
+	var target_parent := get_tree().current_scene
+	if target_parent == null:
+		target_parent = get_parent()
+	if target_parent:
+		target_parent.add_child(label)

@@ -1,43 +1,95 @@
 {
   "lairs": {
     "maw": {
-      "name": "Maw Lair",
+      "name": "星光魔杖",
       "cost": 55,
       "damage": 18,
       "range": 150,
       "fire_rate": 0.62,
       "bullet_speed": 620,
       "upgrade_base": 46,
-      "color": "#f97316",
+      "color": "#ff83d8",
       "effect": "bleed",
       "effect_power": 4.0,
       "effect_duration": 2.0
     },
     "spore": {
-      "name": "Spore Choir",
+      "name": "冰晶魔仙",
       "cost": 70,
       "damage": 10,
       "range": 205,
       "fire_rate": 0.42,
       "bullet_speed": 520,
       "upgrade_base": 58,
-      "color": "#22c55e",
+      "color": "#63d6ff",
       "effect": "slow",
       "effect_power": 0.42,
       "effect_duration": 2.8
     },
     "sigil": {
-      "name": "Hex Sigil",
+      "name": "爱心灯塔",
       "cost": 90,
       "damage": 36,
       "range": 180,
       "fire_rate": 1.15,
       "bullet_speed": 760,
       "upgrade_base": 75,
-      "color": "#a855f7",
+      "color": "#ffd166",
       "effect": "shatter",
       "effect_power": 5.0,
       "effect_duration": 4.0
+    },
+    "rainbow": {
+      "name": "彩虹图腾",
+      "cost": 150,
+      "damage": 16,
+      "range": 195,
+      "fire_rate": 0.72,
+      "bullet_speed": 620,
+      "upgrade_base": 90,
+      "color": "#fb7185",
+      "effect": "slow",
+      "effect_power": 0.35,
+      "effect_duration": 2.2
+    },
+    "mascot": {
+      "name": "萌兔召唤",
+      "cost": 130,
+      "damage": 22,
+      "range": 170,
+      "fire_rate": 0.58,
+      "bullet_speed": 680,
+      "upgrade_base": 82,
+      "color": "#38bdf8",
+      "effect": "bleed",
+      "effect_power": 3.2,
+      "effect_duration": 2.4
+    },
+    "moon": {
+      "name": "月亮法阵",
+      "cost": 110,
+      "damage": 30,
+      "range": 165,
+      "fire_rate": 0.95,
+      "bullet_speed": 760,
+      "upgrade_base": 80,
+      "color": "#a78bfa",
+      "effect": "shatter",
+      "effect_power": 4.0,
+      "effect_duration": 3.0
+    },
+    "love": {
+      "name": "爱心信标",
+      "cost": 140,
+      "damage": 14,
+      "range": 215,
+      "fire_rate": 0.5,
+      "bullet_speed": 640,
+      "upgrade_base": 88,
+      "color": "#f472b6",
+      "effect": "slow",
+      "effect_power": 0.48,
+      "effect_duration": 2.6
     }
   }
 }

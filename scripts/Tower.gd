@@ -6,7 +6,7 @@ const FloatRigScript := preload("res://scripts/FloatRig.gd")
 
 var game: Node
 var archetype := "maw"
-var display_name := "Maw Lair"
+var display_name := "魔法塔"
 var tint := Color("#f97316")
 var damage := 18.0
 var attack_range := 170.0
@@ -19,7 +19,7 @@ var effect_power := 0.0
 var effect_duration := 0.0
 
 var _cooldown := 0.0
-var _rig: FloatRig
+var _rig: Node2D
 var _texture: Texture2D
 var _charge := 0.0
 
@@ -46,7 +46,7 @@ func _ready() -> void:
 		_texture = load(texture_path)
 	if _texture:
 		_rig = FloatRigScript.new()
-		_rig.setup(_texture, Vector2(0.066, 0.066), Color(tint, 0.95), randf() * TAU)
+		_rig.setup(_texture, _texture_scale_for_type(), Color(tint, 0.95), randf() * TAU)
 		_rig.bob_amount = 4.0
 		_rig.bob_speed = 1.65
 		add_child(_rig)
@@ -56,12 +56,39 @@ func _ready() -> void:
 func _texture_path_for_type() -> String:
 	match archetype:
 		"maw":
-			return "res://assets/images/tower_maw_25d_cutout.png"
+			return "res://assets/images/xiaomox/towers_characters_clean/03_gold_star_tower.png"
 		"spore":
-			return "res://assets/images/monster_lair_cutout.png"
+			return "res://assets/images/xiaomox/towers_characters_clean/02_blue_ice_tower.png"
 		"sigil":
-			return "res://assets/images/tower_spore_cutout.png"
-	return "res://assets/images/monster_lair_cutout.png"
+			return "res://assets/images/xiaomox/towers_characters_clean/06_heart_lantern.png"
+		"rainbow":
+			return "res://assets/images/xiaomox/towers_characters_clean/05_flower_spirit_tower.png"
+		"mascot":
+			return "res://assets/images/xiaomox/towers_characters_clean/01_pink_magic_tower.png"
+		"moon":
+			return "res://assets/images/xiaomox/towers_characters_clean/04_purple_moon_tower.png"
+		"love":
+			return "res://assets/images/xiaomox/towers_characters_clean/07_star_crystal_tower.png"
+	return "res://assets/images/xiaomox/towers_characters_clean/03_gold_star_tower.png"
+
+
+func _texture_scale_for_type() -> Vector2:
+	match archetype:
+		"maw":
+			return Vector2(0.92, 0.92)
+		"spore":
+			return Vector2(1.02, 1.02)
+		"sigil":
+			return Vector2(0.88, 0.88)
+		"rainbow":
+			return Vector2(0.82, 0.82)
+		"mascot":
+			return Vector2(1.02, 1.02)
+		"moon":
+			return Vector2(0.98, 0.98)
+		"love":
+			return Vector2(0.82, 0.82)
+	return Vector2(0.95, 0.95)
 
 
 func _process(delta: float) -> void:
@@ -76,8 +103,8 @@ func _process(delta: float) -> void:
 		_cooldown = fire_rate
 
 
-func _find_target() -> Enemy:
-	var best: Enemy
+func _find_target() -> Node:
+	var best: Node
 	var best_progress := -INF
 	for enemy in game.enemies:
 		if not is_instance_valid(enemy):
@@ -89,7 +116,7 @@ func _find_target() -> Enemy:
 	return best
 
 
-func _fire(target: Enemy) -> void:
+func _fire(target: Node) -> void:
 	var bullet := BulletScript.new()
 	bullet.global_position = global_position
 	bullet.setup(target, damage, bullet_speed, tint, effect, effect_power + level * 0.6, effect_duration)
@@ -111,7 +138,7 @@ func upgrade() -> void:
 	attack_range += 12.0
 	fire_rate = maxf(0.35, fire_rate * 0.92)
 	if _rig:
-		_rig.base_scale = Vector2(0.066, 0.066) * (1.0 + minf(0.18, level * 0.035))
+		_rig.base_scale = _texture_scale_for_type() * (1.0 + minf(0.18, level * 0.035))
 		_rig.punch()
 	queue_redraw()
 

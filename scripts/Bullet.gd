@@ -3,7 +3,7 @@ class_name Bullet
 
 const ImpactFxScript := preload("res://scripts/ImpactFx.gd")
 
-var target: Enemy
+var target: Node
 var damage := 10.0
 var speed := 500.0
 var color := Color("#a855f7")
@@ -16,7 +16,7 @@ var _texture: Texture2D
 var _trail: Array[Vector2] = []
 
 
-func setup(new_target: Enemy, bullet_damage: float, bullet_speed: float, bullet_color: Color = Color("#a855f7"), bullet_effect: String = "", power: float = 0.0, duration: float = 0.0) -> void:
+func setup(new_target: Node, bullet_damage: float, bullet_speed: float, bullet_color: Color = Color("#a855f7"), bullet_effect: String = "", power: float = 0.0, duration: float = 0.0) -> void:
 	target = new_target
 	damage = bullet_damage
 	speed = bullet_speed
@@ -28,12 +28,14 @@ func setup(new_target: Enemy, bullet_damage: float, bullet_speed: float, bullet_
 
 func _ready() -> void:
 	z_index = 25
-	if ResourceLoader.exists("res://assets/images/curse_orb_cutout.png"):
+	if ResourceLoader.exists("res://assets/images/xiaomox/effects_skills/05_starlight_burst.png"):
+		_texture = load("res://assets/images/xiaomox/effects_skills/05_starlight_burst.png")
+	elif ResourceLoader.exists("res://assets/images/curse_orb_cutout.png"):
 		_texture = load("res://assets/images/curse_orb_cutout.png")
 	if _texture:
 		_sprite = Sprite2D.new()
 		_sprite.texture = _texture
-		_sprite.scale = Vector2(0.028, 0.028)
+		_sprite.scale = Vector2(0.72, 0.72)
 		_sprite.modulate = Color(color, 0.9)
 		add_child(_sprite)
 	queue_redraw()
@@ -44,7 +46,7 @@ func _process(delta: float) -> void:
 		queue_free()
 		return
 
-	var to_target := target.global_position - global_position
+	var to_target: Vector2 = target.global_position - global_position
 	var step := speed * delta
 	if to_target.length() <= step:
 		_spawn_impact(target.global_position)

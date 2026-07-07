@@ -1,0 +1,834 @@
+[
+  {
+    "group": "01_背景场景",
+    "name": "天空云朵",
+    "file": "png_layers/01_背景场景/01_天空云朵.png",
+    "source_box": [
+      16,
+      682,
+      76,
+      746
+    ],
+    "left": 26,
+    "top": 58,
+    "width": 59,
+    "height": 52,
+    "transparent": true
+  },
+  {
+    "group": "01_背景场景",
+    "name": "草地底板",
+    "file": "png_layers/01_背景场景/02_草地底板.png",
+    "source_box": [
+      76,
+      682,
+      140,
+      746
+    ],
+    "left": 102,
+    "top": 58,
+    "width": 57,
+    "height": 52,
+    "transparent": true
+  },
+  {
+    "group": "01_背景场景",
+    "name": "童话城堡",
+    "file": "png_layers/01_背景场景/03_童话城堡.png",
+    "source_box": [
+      142,
+      674,
+      207,
+      750
+    ],
+    "left": 180,
+    "top": 52,
+    "width": 58,
+    "height": 55,
+    "transparent": true
+  },
+  {
+    "group": "01_背景场景",
+    "name": "魔法水晶",
+    "file": "png_layers/01_背景场景/04_魔法水晶.png",
+    "source_box": [
+      208,
+      675,
+      267,
+      750
+    ],
+    "left": 260,
+    "top": 53,
+    "width": 42,
+    "height": 44,
+    "transparent": true
+  },
+  {
+    "group": "01_背景场景",
+    "name": "樱花树",
+    "file": "png_layers/01_背景场景/05_樱花树.png",
+    "source_box": [
+      266,
+      674,
+      335,
+      750
+    ],
+    "left": 43,
+    "top": 165,
+    "width": 55,
+    "height": 55,
+    "transparent": true
+  },
+  {
+    "group": "01_背景场景",
+    "name": "道路直线参考",
+    "file": "png_layers/01_背景场景/06_道路直线参考.png",
+    "source_box": [
+      525,
+      90,
+      700,
+      165
+    ],
+    "left": 120,
+    "top": 165,
+    "width": 175,
+    "height": 75,
+    "transparent": false
+  },
+  {
+    "group": "01_背景场景",
+    "name": "道路弯道参考",
+    "file": "png_layers/01_背景场景/07_道路弯道参考.png",
+    "source_box": [
+      915,
+      440,
+      1095,
+      535
+    ],
+    "left": 43,
+    "top": 235,
+    "width": 180,
+    "height": 95,
+    "transparent": false
+  },
+  {
+    "group": "02_防御塔与角色",
+    "name": "粉色魔仙塔",
+    "file": "png_layers/02_防御塔与角色/01_粉色魔仙塔.png",
+    "source_box": [
+      366,
+      675,
+      425,
+      750
+    ],
+    "left": 388,
+    "top": 58,
+    "width": 56,
+    "height": 75,
+    "transparent": true
+  },
+  {
+    "group": "02_防御塔与角色",
+    "name": "蓝色冰晶塔",
+    "file": "png_layers/02_防御塔与角色/02_蓝色冰晶塔.png",
+    "source_box": [
+      430,
+      675,
+      492,
+      750
+    ],
+    "left": 468,
+    "top": 58,
+    "width": 51,
+    "height": 63,
+    "transparent": true
+  },
+  {
+    "group": "02_防御塔与角色",
+    "name": "金色星光塔",
+    "file": "png_layers/02_防御塔与角色/03_金色星光塔.png",
+    "source_box": [
+      496,
+      675,
+      557,
+      750
+    ],
+    "left": 548,
+    "top": 58,
+    "width": 61,
+    "height": 63,
+    "transparent": true
+  },
+  {
+    "group": "02_防御塔与角色",
+    "name": "紫色月影塔",
+    "file": "png_layers/02_防御塔与角色/04_紫色月影塔.png",
+    "source_box": [
+      560,
+      675,
+      628,
+      750
+    ],
+    "left": 628,
+    "top": 58,
+    "width": 68,
+    "height": 64,
+    "transparent": true
+  },
+  {
+    "group": "02_防御塔与角色",
+    "name": "花灵炮塔",
+    "file": "png_layers/02_防御塔与角色/05_花灵炮塔.png",
+    "source_box": [
+      360,
+      747,
+      445,
+      838
+    ],
+    "left": 390,
+    "top": 162,
+    "width": 72,
+    "height": 91,
+    "transparent": true
+  },
+  {
+    "group": "02_防御塔与角色",
+    "name": "爱心灯塔",
+    "file": "png_layers/02_防御塔与角色/06_爱心灯塔.png",
+    "source_box": [
+      454,
+      748,
+      526,
+      838
+    ],
+    "left": 500,
+    "top": 162,
+    "width": 70,
+    "height": 90,
+    "transparent": true
+  },
+  {
+    "group": "02_防御塔与角色",
+    "name": "星晶法塔",
+    "file": "png_layers/02_防御塔与角色/07_星晶法塔.png",
+    "source_box": [
+      540,
+      748,
+      624,
+      838
+    ],
+    "left": 600,
+    "top": 162,
+    "width": 84,
+    "height": 90,
+    "transparent": true
+  },
+  {
+    "group": "03_敌人怪物",
+    "name": "粉色兔兔",
+    "file": "png_layers/03_敌人怪物/01_粉色兔兔.png",
+    "source_box": [
+      671,
+      675,
+      724,
+      745
+    ],
+    "left": 875,
+    "top": 58,
+    "width": 44,
+    "height": 69,
+    "transparent": true
+  },
+  {
+    "group": "03_敌人怪物",
+    "name": "紫色蝙蝠团",
+    "file": "png_layers/03_敌人怪物/02_紫色蝙蝠团.png",
+    "source_box": [
+      726,
+      675,
+      783,
+      745
+    ],
+    "left": 955,
+    "top": 58,
+    "width": 57,
+    "height": 68,
+    "transparent": true
+  },
+  {
+    "group": "03_敌人怪物",
+    "name": "蓝色软泥",
+    "file": "png_layers/03_敌人怪物/03_蓝色软泥.png",
+    "source_box": [
+      785,
+      675,
+      842,
+      745
+    ],
+    "left": 1035,
+    "top": 58,
+    "width": 41,
+    "height": 48,
+    "transparent": true
+  },
+  {
+    "group": "03_敌人怪物",
+    "name": "绿叶怪",
+    "file": "png_layers/03_敌人怪物/04_绿叶怪.png",
+    "source_box": [
+      842,
+      675,
+      901,
+      745
+    ],
+    "left": 1115,
+    "top": 58,
+    "width": 59,
+    "height": 48,
+    "transparent": true
+  },
+  {
+    "group": "03_敌人怪物",
+    "name": "蘑菇怪",
+    "file": "png_layers/03_敌人怪物/05_蘑菇怪.png",
+    "source_box": [
+      671,
+      742,
+      726,
+      813
+    ],
+    "left": 875,
+    "top": 162,
+    "width": 45,
+    "height": 47,
+    "transparent": true
+  },
+  {
+    "group": "03_敌人怪物",
+    "name": "黄色团子",
+    "file": "png_layers/03_敌人怪物/06_黄色团子.png",
+    "source_box": [
+      727,
+      742,
+      783,
+      813
+    ],
+    "left": 955,
+    "top": 162,
+    "width": 40,
+    "height": 47,
+    "transparent": true
+  },
+  {
+    "group": "03_敌人怪物",
+    "name": "奶油团子",
+    "file": "png_layers/03_敌人怪物/07_奶油团子.png",
+    "source_box": [
+      785,
+      742,
+      842,
+      813
+    ],
+    "left": 1035,
+    "top": 162,
+    "width": 40,
+    "height": 44,
+    "transparent": true
+  },
+  {
+    "group": "03_敌人怪物",
+    "name": "紫色团子",
+    "file": "png_layers/03_敌人怪物/08_紫色团子.png",
+    "source_box": [
+      843,
+      742,
+      901,
+      813
+    ],
+    "left": 1115,
+    "top": 162,
+    "width": 58,
+    "height": 48,
+    "transparent": true
+  },
+  {
+    "group": "04_特效与技能",
+    "name": "冰晶特效",
+    "file": "png_layers/04_特效与技能/01_冰晶特效.png",
+    "source_box": [
+      930,
+      675,
+      991,
+      744
+    ],
+    "left": 1290,
+    "top": 58,
+    "width": 39,
+    "height": 69,
+    "transparent": true
+  },
+  {
+    "group": "04_特效与技能",
+    "name": "冰雪特效",
+    "file": "png_layers/04_特效与技能/02_冰雪特效.png",
+    "source_box": [
+      991,
+      675,
+      1065,
+      744
+    ],
+    "left": 1380,
+    "top": 58,
+    "width": 74,
+    "height": 69,
+    "transparent": true
+  },
+  {
+    "group": "04_特效与技能",
+    "name": "粉色魔法阵",
+    "file": "png_layers/04_特效与技能/03_粉色魔法阵.png",
+    "source_box": [
+      930,
+      742,
+      991,
+      807
+    ],
+    "left": 1470,
+    "top": 58,
+    "width": 43,
+    "height": 40,
+    "transparent": true
+  },
+  {
+    "group": "04_特效与技能",
+    "name": "紫色魔法阵",
+    "file": "png_layers/04_特效与技能/04_紫色魔法阵.png",
+    "source_box": [
+      991,
+      742,
+      1065,
+      807
+    ],
+    "left": 1560,
+    "top": 58,
+    "width": 74,
+    "height": 63,
+    "transparent": true
+  },
+  {
+    "group": "04_特效与技能",
+    "name": "星光爆发",
+    "file": "png_layers/04_特效与技能/05_星光爆发.png",
+    "source_box": [
+      930,
+      805,
+      991,
+      872
+    ],
+    "left": 1340,
+    "top": 165,
+    "width": 43,
+    "height": 45,
+    "transparent": true
+  },
+  {
+    "group": "04_特效与技能",
+    "name": "水波魔法阵",
+    "file": "png_layers/04_特效与技能/06_水波魔法阵.png",
+    "source_box": [
+      991,
+      805,
+      1065,
+      872
+    ],
+    "left": 1485,
+    "top": 165,
+    "width": 74,
+    "height": 40,
+    "transparent": true
+  },
+  {
+    "group": "05_UI面板与窗口",
+    "name": "小型信息面板",
+    "file": "png_layers/05_UI面板与窗口/01_小型信息面板.png",
+    "source_box": [
+      1100,
+      675,
+      1187,
+      750
+    ],
+    "left": 28,
+    "top": 382,
+    "width": 87,
+    "height": 75,
+    "transparent": false
+  },
+  {
+    "group": "05_UI面板与窗口",
+    "name": "横向状态面板",
+    "file": "png_layers/05_UI面板与窗口/02_横向状态面板.png",
+    "source_box": [
+      1175,
+      675,
+      1245,
+      750
+    ],
+    "left": 145,
+    "top": 382,
+    "width": 70,
+    "height": 75,
+    "transparent": false
+  },
+  {
+    "group": "05_UI面板与窗口",
+    "name": "大型卡片面板",
+    "file": "png_layers/05_UI面板与窗口/03_大型卡片面板.png",
+    "source_box": [
+      1098,
+      745,
+      1188,
+      880
+    ],
+    "left": 245,
+    "top": 382,
+    "width": 90,
+    "height": 135,
+    "transparent": false
+  },
+  {
+    "group": "05_UI面板与窗口",
+    "name": "纵向详情面板",
+    "file": "png_layers/05_UI面板与窗口/04_纵向详情面板.png",
+    "source_box": [
+      1190,
+      675,
+      1280,
+      810
+    ],
+    "left": 365,
+    "top": 382,
+    "width": 90,
+    "height": 135,
+    "transparent": false
+  },
+  {
+    "group": "05_UI面板与窗口",
+    "name": "小型辅助面板",
+    "file": "png_layers/05_UI面板与窗口/05_小型辅助面板.png",
+    "source_box": [
+      1190,
+      805,
+      1263,
+      880
+    ],
+    "left": 485,
+    "top": 382,
+    "width": 73,
+    "height": 75,
+    "transparent": false
+  },
+  {
+    "group": "05_UI面板与窗口",
+    "name": "顶部资源状态栏",
+    "file": "png_layers/05_UI面板与窗口/06_顶部资源状态栏.png",
+    "source_box": [
+      8,
+      8,
+      640,
+      100
+    ],
+    "left": 28,
+    "top": 535,
+    "width": 632,
+    "height": 92,
+    "transparent": false
+  },
+  {
+    "group": "05_UI面板与窗口",
+    "name": "右侧塔详情面板",
+    "file": "png_layers/05_UI面板与窗口/07_右侧塔详情面板.png",
+    "source_box": [
+      1290,
+      62,
+      1660,
+      680
+    ],
+    "left": 665,
+    "top": 350,
+    "width": 370,
+    "height": 618,
+    "transparent": false
+  },
+  {
+    "group": "06_UI按钮",
+    "name": "暂停按钮",
+    "file": "png_layers/06_UI按钮/01_暂停按钮.png",
+    "source_box": [
+      1292,
+      675,
+      1346,
+      744
+    ],
+    "left": 875,
+    "top": 382,
+    "width": 24,
+    "height": 66,
+    "transparent": true
+  },
+  {
+    "group": "06_UI按钮",
+    "name": "二倍速按钮",
+    "file": "png_layers/06_UI按钮/02_二倍速按钮.png",
+    "source_box": [
+      1345,
+      675,
+      1400,
+      744
+    ],
+    "left": 955,
+    "top": 382,
+    "width": 55,
+    "height": 66,
+    "transparent": true
+  },
+  {
+    "group": "06_UI按钮",
+    "name": "自动按钮",
+    "file": "png_layers/06_UI按钮/03_自动按钮.png",
+    "source_box": [
+      1395,
+      675,
+      1458,
+      744
+    ],
+    "left": 1035,
+    "top": 382,
+    "width": 63,
+    "height": 66,
+    "transparent": true
+  },
+  {
+    "group": "06_UI按钮",
+    "name": "技能按钮",
+    "file": "png_layers/06_UI按钮/04_技能按钮.png",
+    "source_box": [
+      1286,
+      742,
+      1364,
+      840
+    ],
+    "left": 875,
+    "top": 490,
+    "width": 42,
+    "height": 65,
+    "transparent": true
+  },
+  {
+    "group": "06_UI按钮",
+    "name": "金色主按钮",
+    "file": "png_layers/06_UI按钮/05_金色主按钮.png",
+    "source_box": [
+      1365,
+      755,
+      1460,
+      820
+    ],
+    "left": 985,
+    "top": 510,
+    "width": 95,
+    "height": 50,
+    "transparent": true
+  },
+  {
+    "group": "06_UI按钮",
+    "name": "升级按钮整块",
+    "file": "png_layers/06_UI按钮/06_升级按钮整块.png",
+    "source_box": [
+      1340,
+      582,
+      1618,
+      663
+    ],
+    "left": 875,
+    "top": 595,
+    "width": 278,
+    "height": 81,
+    "transparent": false
+  },
+  {
+    "group": "06_UI按钮",
+    "name": "出售按钮整块",
+    "file": "png_layers/06_UI按钮/07_出售按钮整块.png",
+    "source_box": [
+      1340,
+      664,
+      1618,
+      739
+    ],
+    "left": 1010,
+    "top": 595,
+    "width": 278,
+    "height": 75,
+    "transparent": false
+  },
+  {
+    "group": "07_UI图标与装饰",
+    "name": "生命图标",
+    "file": "png_layers/07_UI图标与装饰/01_生命图标.png",
+    "source_box": [
+      1480,
+      675,
+      1535,
+      742
+    ],
+    "left": 1290,
+    "top": 382,
+    "width": 26,
+    "height": 61,
+    "transparent": true
+  },
+  {
+    "group": "07_UI图标与装饰",
+    "name": "金币图标",
+    "file": "png_layers/07_UI图标与装饰/02_金币图标.png",
+    "source_box": [
+      1535,
+      675,
+      1592,
+      742
+    ],
+    "left": 1375,
+    "top": 382,
+    "width": 57,
+    "height": 62,
+    "transparent": true
+  },
+  {
+    "group": "07_UI图标与装饰",
+    "name": "星星图标",
+    "file": "png_layers/07_UI图标与装饰/03_星星图标.png",
+    "source_box": [
+      1480,
+      742,
+      1535,
+      803
+    ],
+    "left": 1460,
+    "top": 382,
+    "width": 25,
+    "height": 39,
+    "transparent": true
+  },
+  {
+    "group": "07_UI图标与装饰",
+    "name": "宝石图标",
+    "file": "png_layers/07_UI图标与装饰/04_宝石图标.png",
+    "source_box": [
+      1535,
+      742,
+      1592,
+      803
+    ],
+    "left": 1545,
+    "top": 382,
+    "width": 57,
+    "height": 37,
+    "transparent": true
+  },
+  {
+    "group": "07_UI图标与装饰",
+    "name": "蝴蝶结",
+    "file": "png_layers/07_UI图标与装饰/05_蝴蝶结.png",
+    "source_box": [
+      1480,
+      800,
+      1538,
+      856
+    ],
+    "left": 1330,
+    "top": 495,
+    "width": 30,
+    "height": 36,
+    "transparent": true
+  },
+  {
+    "group": "07_UI图标与装饰",
+    "name": "花朵装饰",
+    "file": "png_layers/07_UI图标与装饰/06_花朵装饰.png",
+    "source_box": [
+      1535,
+      800,
+      1594,
+      856
+    ],
+    "left": 1440,
+    "top": 495,
+    "width": 59,
+    "height": 37,
+    "transparent": true
+  },
+  {
+    "group": "07_UI图标与装饰",
+    "name": "爱心技能图标",
+    "file": "png_layers/07_UI图标与装饰/07_爱心技能图标.png",
+    "source_box": [
+      1288,
+      430,
+      1395,
+      542
+    ],
+    "left": 1540,
+    "top": 495,
+    "width": 107,
+    "height": 112,
+    "transparent": true
+  },
+  {
+    "group": "08_整屏组件",
+    "name": "顶部资源与波次区",
+    "file": "png_layers/08_整屏组件/01_顶部资源与波次区.png",
+    "source_box": [
+      8,
+      8,
+      1260,
+      112
+    ],
+    "left": 28,
+    "top": 758,
+    "width": 1252,
+    "height": 104,
+    "transparent": false
+  },
+  {
+    "group": "08_整屏组件",
+    "name": "底部防御塔选择栏",
+    "file": "png_layers/08_整屏组件/02_底部防御塔选择栏.png",
+    "source_box": [
+      170,
+      742,
+      1195,
+      932
+    ],
+    "left": 28,
+    "top": 865,
+    "width": 1025,
+    "height": 190,
+    "transparent": false
+  },
+  {
+    "group": "08_整屏组件",
+    "name": "右下速度音乐设置区",
+    "file": "png_layers/08_整屏组件/03_右下速度音乐设置区.png",
+    "source_box": [
+      1190,
+      742,
+      1660,
+      932
+    ],
+    "left": 1120,
+    "top": 758,
+    "width": 470,
+    "height": 190,
+    "transparent": false
+  }
+]

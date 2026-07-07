@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="36%" r="72%">
+      <stop offset="0" stop-color="#fff5ff"/>
+      <stop offset="0.45" stop-color="#ffd7f1"/>
+      <stop offset="1" stop-color="#c6b7ff"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff0fa"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#ff7bd5" flood-opacity=".55"/>
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#8c5ad9" flood-opacity=".2"/>
+    </filter>
+    <style>
+      .title{font:900 31px 'Microsoft YaHei',sans-serif;fill:#8b3bd1}
+      .label{font:800 20px 'Microsoft YaHei',sans-serif;fill:#7a2fb8}
+      .small{font:600 15px 'Microsoft YaHei',sans-serif;fill:#9b5bc8}
+      .num{font:900 25px 'Microsoft YaHei',sans-serif;fill:#ff4fb8}
+    </style>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <g opacity=".48" fill="#fff">
+    <path d="M92 122 l10 24 26 3-20 16 6 25-22-13-22 13 6-25-20-16 26-3z"/>
+    <path d="M1110 128 l8 19 21 2-16 13 5 20-18-10-18 10 5-20-16-13 21-2z"/>
+    <path d="M1030 520 l12 28 31 3-24 19 7 30-26-16-27 16 7-30-24-19 31-3z"/>
+  </g>
+
+  <path d="M28 26 Q60 8 92 26 H1178 Q1218 26 1238 60 Q1218 94 1178 94 H92 Q60 94 28 60 Q40 44 28 26Z" fill="url(#card)" stroke="#ff83d8" stroke-width="5" filter="url(#glow)"/>
+  <circle cx="76" cy="60" r="26" fill="#ff81d8"/><path d="M76 40 l6 14 15 2-12 10 4 15-13-8-13 8 4-15-12-10 15-2z" fill="#fff8a8"/>
+  <text x="118" y="55" class="title">星光魔法花园</text>
+  <text x="120" y="80" class="small">粉紫魔法仙境 · 原创儿童向放置塔防</text>
+  <text x="690" y="55" class="small">星光魔力</text><text x="772" y="58" class="num">160</text>
+  <text x="880" y="55" class="small">水晶心</text><text x="958" y="58" class="num">10</text>
+  <text x="1060" y="55" class="small">第 2 波</text><text x="1130" y="58" class="num">准备中</text>
+
+  <rect x="44" y="118" width="840" height="466" rx="46" fill="#f7ffdc" stroke="#fff" stroke-width="9" filter="url(#glow)"/>
+  <rect x="70" y="145" width="788" height="412" rx="34" fill="#caf7d4"/>
+  <path d="M52 455 C170 500 245 378 315 330 C410 265 515 310 555 415 C600 535 760 500 795 380 C835 245 950 225 1180 305" fill="none" stroke="#ffc8ef" stroke-width="58" stroke-linecap="round"/>
+  <path d="M52 455 C170 500 245 378 315 330 C410 265 515 310 555 415 C600 535 760 500 795 380 C835 245 950 225 1180 305" fill="none" stroke="#fff4fe" stroke-width="30" stroke-linecap="round" stroke-dasharray="8 18"/>
+
+  <g filter="url(#glow)">
+    <circle cx="210" cy="405" r="42" fill="#fff" stroke="#ff6ed2" stroke-width="5"/><path d="M210 375 l9 21 23 2-18 15 5 22-19-12-20 12 5-22-18-15 23-2z" fill="#ff90dd"/>
+    <circle cx="385" cy="250" r="42" fill="#fff" stroke="#a56cff" stroke-width="5"/><path d="M385 220 l9 21 23 2-18 15 5 22-19-12-20 12 5-22-18-15 23-2z" fill="#b28cff"/>
+    <circle cx="610" cy="475" r="42" fill="#fff" stroke="#ffbd3e" stroke-width="5"/><path d="M610 445 l9 21 23 2-18 15 5 22-19-12-20 12 5-22-18-15 23-2z" fill="#ffd56b"/>
+    <circle cx="760" cy="315" r="42" fill="#fff" stroke="#63d6ff" stroke-width="5"/><path d="M760 285 l9 21 23 2-18 15 5 22-19-12-20 12 5-22-18-15 23-2z" fill="#8de8ff"/>
+  </g>
+  <g fill="#fff" stroke="#d28cff" stroke-width="4" stroke-dasharray="7 8">
+    <circle cx="285" cy="505" r="30"/><circle cx="470" cy="420" r="30"/><circle cx="675" cy="210" r="30"/><circle cx="830" cy="500" r="30"/>
+  </g>
+  <circle cx="1050" cy="270" r="24" fill="#fff7aa" stroke="#ff9bdc" stroke-width="4"/><circle cx="1042" cy="266" r="3" fill="#7a2fb8"/><circle cx="1058" cy="266" r="3" fill="#7a2fb8"/>
+
+  <rect x="918" y="118" width="318" height="466" rx="42" fill="url(#card)" stroke="#ff83d8" stroke-width="5" filter="url(#glow)"/>
+  <text x="958" y="158" class="title">魔法课程</text>
+  <rect x="954" y="202" width="244" height="96" rx="28" fill="#fff8fe" stroke="#ff9ade" stroke-width="3"/>
+  <text x="986" y="240" class="label">星星花塔 Lv.3</text><text x="986" y="270" class="small">溅射 +1  眩光 +2 秒</text>
+  <rect x="954" y="326" width="244" height="62" rx="28" fill="#ff83d8" stroke="#ff4fb8" stroke-width="4"/><text x="1018" y="366" class="label" fill="#fff">升级 72</text>
+  <rect x="954" y="412" width="244" height="62" rx="28" fill="#fff0a8" stroke="#ffbd3e" stroke-width="4"/><text x="1006" y="452" class="label">释放星雨</text>
+  <text x="954" y="526" class="small">关键词：魔法少女感、星光反馈、绘本面板、花园路径。</text>
+
+  <rect x="74" y="610" width="1132" height="88" rx="42" fill="url(#card)" stroke="#ff83d8" stroke-width="5" filter="url(#glow)"/>
+  <rect x="108" y="628" width="178" height="52" rx="25" fill="#ffe3f5" stroke="#ff75cf" stroke-width="3"/><text x="136" y="662" class="label">花瓣塔 50</text>
+  <rect x="312" y="628" width="178" height="52" rx="25" fill="#eee5ff" stroke="#a56cff" stroke-width="3"/><text x="340" y="662" class="label">月亮塔 70</text>
+  <rect x="516" y="628" width="178" height="52" rx="25" fill="#fff4bd" stroke="#ffbd3e" stroke-width="3"/><text x="544" y="662" class="label">星星塔 90</text>
+  <rect x="720" y="628" width="178" height="52" rx="25" fill="#ddf8ff" stroke="#63d6ff" stroke-width="3"/><text x="748" y="662" class="label">泡泡塔 80</text>
+  <rect x="960" y="628" width="196" height="52" rx="25" fill="#8b3bd1"/><text x="1006" y="662" class="label" fill="#fff">开始守护</text>
+</svg>

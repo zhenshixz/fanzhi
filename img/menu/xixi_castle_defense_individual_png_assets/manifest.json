@@ -1,0 +1,182 @@
+[
+  {
+    "folder": "02_标题Logo",
+    "file": "游戏标题Logo_汐汐公主城堡防御.png",
+    "source_box": [
+      40,
+      70,
+      550,
+      420
+    ],
+    "transparent": true,
+    "size": [
+      500,
+      308
+    ]
+  },
+  {
+    "folder": "03_按钮",
+    "file": "开始游戏按钮.png",
+    "source_box": [
+      555,
+      82,
+      845,
+      350
+    ],
+    "transparent": true,
+    "size": [
+      275,
+      235
+    ]
+  },
+  {
+    "folder": "03_按钮",
+    "file": "设置按钮.png",
+    "source_box": [
+      585,
+      355,
+      945,
+      470
+    ],
+    "transparent": true,
+    "size": [
+      354,
+      81
+    ]
+  },
+  {
+    "folder": "04_背景装饰角色",
+    "file": "粉色小魔仙_含兔子.png",
+    "source_box": [
+      900,
+      115,
+      1090,
+      470
+    ],
+    "transparent": true,
+    "size": [
+      190,
+      264
+    ]
+  },
+  {
+    "folder": "04_背景装饰角色",
+    "file": "蓝色小魔仙.png",
+    "source_box": [
+      1085,
+      120,
+      1260,
+      470
+    ],
+    "transparent": true,
+    "size": [
+      175,
+      256
+    ]
+  },
+  {
+    "folder": "04_背景装饰角色",
+    "file": "黄色小魔仙_含宠物.png",
+    "source_box": [
+      1250,
+      120,
+      1455,
+      470
+    ],
+    "transparent": true,
+    "size": [
+      205,
+      249
+    ]
+  },
+  {
+    "folder": "04_背景装饰角色",
+    "file": "紫色小魔仙.png",
+    "source_box": [
+      1450,
+      110,
+      1635,
+      470
+    ],
+    "transparent": true,
+    "size": [
+      185,
+      256
+    ]
+  },
+  {
+    "folder": "05_背景环境元素",
+    "file": "城堡.png",
+    "source_box": [
+      70,
+      505,
+      455,
+      890
+    ],
+    "transparent": true,
+    "size": [
+      370,
+      374
+    ]
+  },
+  {
+    "folder": "05_背景环境元素",
+    "file": "喷泉广场.png",
+    "source_box": [
+      435,
+      555,
+      800,
+      890
+    ],
+    "transparent": true,
+    "size": [
+      365,
+      301
+    ]
+  },
+  {
+    "folder": "05_背景环境元素",
+    "file": "彩虹.png",
+    "source_box": [
+      820,
+      570,
+      1130,
+      860
+    ],
+    "transparent": true,
+    "size": [
+      286,
+      273
+    ]
+  },
+  {
+    "folder": "05_背景环境元素",
+    "file": "水晶簇.png",
+    "source_box": [
+      1120,
+      560,
+      1340,
+      880
+    ],
+    "transparent": true,
+    "size": [
+      189,
+      285
+    ]
+  },
+  {
+    "folder": "05_背景环境元素",
+    "file": "花坛装饰.png",
+    "source_box": [
+      1325,
+      565,
+      1645,
+      885
+    ],
+    "transparent": true,
+    "size": [
+      292,
+      296
+    ]
+  }
+]

@@ -12,8 +12,11 @@ func _ready() -> void:
 	_load_sfx()
 	_music = AudioStreamPlayer.new()
 	_music.name = "Music"
-	_music.stream = load("res://assets/audio/music/southern_gothic.mp3")
-	_music.volume_db = -13.0
+	_music.stream = _load_first_existing([
+		"res://assets/audio/music/magic_girl_theme.wav",
+		"res://assets/audio/music/southern_gothic.mp3"
+	])
+	_music.volume_db = -12.0
 	add_child(_music)
 	_music.finished.connect(_on_music_finished)
 	set_music_enabled(true)
@@ -24,7 +27,7 @@ func set_music_enabled(value: bool) -> void:
 	if not _music:
 		return
 	if value:
-		if not _music.playing:
+		if _music.stream and not _music.playing:
 			_music.play()
 	else:
 		_music.stop()
@@ -44,9 +47,21 @@ func play_sfx(kind: String) -> void:
 
 func _load_sfx() -> void:
 	for kind in ["ui", "build", "upgrade", "shot", "hit", "death", "leak", "quake"]:
-		var path := "res://assets/audio/sfx/%s.ogg" % kind
+		var stream = _load_first_existing([
+			"res://assets/audio/sfx_magic/%s.wav" % kind,
+			"res://assets/audio/sfx/%s.ogg" % kind
+		])
+		if stream:
+			_sfx[kind] = stream
+
+
+func _load_first_existing(paths: Array) -> Resource:
+	for path in paths:
 		if ResourceLoader.exists(path):
-			_sfx[kind] = load(path)
+			var stream = load(path)
+			if stream:
+				return stream
+	return null
 
 
 func _volume_for(kind: String) -> float:

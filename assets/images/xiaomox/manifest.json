@@ -1,0 +1,531 @@
+[
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\00_交付板背景.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\delivery_board\\delivery_board_background.png",
+    "size": [
+      1672,
+      941
+    ],
+    "category": "delivery_board"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\01_背景场景\\01_天空云朵.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\background_parts\\01_sky_clouds.png",
+    "size": [
+      59,
+      52
+    ],
+    "category": "background_parts",
+    "name": "sky_clouds"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\01_背景场景\\02_草地底板.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\background_parts\\02_grass_base.png",
+    "size": [
+      57,
+      52
+    ],
+    "category": "background_parts",
+    "name": "grass_base"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\01_背景场景\\03_童话城堡.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\background_parts\\03_fairy_castle.png",
+    "size": [
+      58,
+      55
+    ],
+    "category": "background_parts",
+    "name": "fairy_castle"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\01_背景场景\\04_魔法水晶.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\background_parts\\04_magic_crystal.png",
+    "size": [
+      42,
+      44
+    ],
+    "category": "background_parts",
+    "name": "magic_crystal"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\01_背景场景\\05_樱花树.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\background_parts\\05_sakura_tree.png",
+    "size": [
+      55,
+      55
+    ],
+    "category": "background_parts",
+    "name": "sakura_tree"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\01_背景场景\\06_道路直线参考.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\background_parts\\06_road_straight_ref.png",
+    "size": [
+      175,
+      75
+    ],
+    "category": "background_parts",
+    "name": "road_straight_ref"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\01_背景场景\\07_道路弯道参考.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\background_parts\\07_road_curve_ref.png",
+    "size": [
+      180,
+      95
+    ],
+    "category": "background_parts",
+    "name": "road_curve_ref"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\02_防御塔与角色\\01_粉色魔仙塔.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\towers_characters\\01_pink_magic_tower.png",
+    "size": [
+      56,
+      75
+    ],
+    "category": "towers_characters",
+    "name": "pink_magic_tower"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\02_防御塔与角色\\02_蓝色冰晶塔.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\towers_characters\\02_blue_ice_tower.png",
+    "size": [
+      51,
+      63
+    ],
+    "category": "towers_characters",
+    "name": "blue_ice_tower"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\02_防御塔与角色\\03_金色星光塔.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\towers_characters\\03_gold_star_tower.png",
+    "size": [
+      61,
+      63
+    ],
+    "category": "towers_characters",
+    "name": "gold_star_tower"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\02_防御塔与角色\\04_紫色月影塔.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\towers_characters\\04_purple_moon_tower.png",
+    "size": [
+      68,
+      64
+    ],
+    "category": "towers_characters",
+    "name": "purple_moon_tower"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\02_防御塔与角色\\05_花灵炮塔.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\towers_characters\\05_flower_spirit_tower.png",
+    "size": [
+      72,
+      91
+    ],
+    "category": "towers_characters",
+    "name": "flower_spirit_tower"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\02_防御塔与角色\\06_爱心灯塔.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\towers_characters\\06_heart_lantern.png",
+    "size": [
+      70,
+      90
+    ],
+    "category": "towers_characters",
+    "name": "heart_lantern"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\02_防御塔与角色\\07_星晶法塔.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\towers_characters\\07_star_crystal_tower.png",
+    "size": [
+      84,
+      90
+    ],
+    "category": "towers_characters",
+    "name": "star_crystal_tower"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\03_敌人怪物\\01_粉色兔兔.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\enemies\\01_pink_bunny.png",
+    "size": [
+      44,
+      69
+    ],
+    "category": "enemies",
+    "name": "pink_bunny"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\03_敌人怪物\\02_紫色蝙蝠团.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\enemies\\02_purple_bat_blob.png",
+    "size": [
+      57,
+      68
+    ],
+    "category": "enemies",
+    "name": "purple_bat_blob"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\03_敌人怪物\\03_蓝色软泥.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\enemies\\03_blue_slime.png",
+    "size": [
+      41,
+      48
+    ],
+    "category": "enemies",
+    "name": "blue_slime"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\03_敌人怪物\\04_绿叶怪.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\enemies\\04_green_leaf_monster.png",
+    "size": [
+      59,
+      48
+    ],
+    "category": "enemies",
+    "name": "green_leaf_monster"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\03_敌人怪物\\05_蘑菇怪.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\enemies\\05_mushroom_monster.png",
+    "size": [
+      45,
+      47
+    ],
+    "category": "enemies",
+    "name": "mushroom_monster"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\03_敌人怪物\\06_黄色团子.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\enemies\\06_yellow_blob.png",
+    "size": [
+      40,
+      47
+    ],
+    "category": "enemies",
+    "name": "yellow_blob"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\03_敌人怪物\\07_奶油团子.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\enemies\\07_cream_blob.png",
+    "size": [
+      40,
+      44
+    ],
+    "category": "enemies",
+    "name": "cream_blob"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\03_敌人怪物\\08_紫色团子.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\enemies\\08_purple_blob.png",
+    "size": [
+      58,
+      48
+    ],
+    "category": "enemies",
+    "name": "purple_blob"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\04_特效与技能\\01_冰晶特效.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\effects_skills\\01_ice_crystal_fx.png",
+    "size": [
+      39,
+      69
+    ],
+    "category": "effects_skills",
+    "name": "ice_crystal_fx"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\04_特效与技能\\02_冰雪特效.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\effects_skills\\02_snow_fx.png",
+    "size": [
+      74,
+      69
+    ],
+    "category": "effects_skills",
+    "name": "snow_fx"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\04_特效与技能\\03_粉色魔法阵.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\effects_skills\\03_pink_magic_circle.png",
+    "size": [
+      43,
+      40
+    ],
+    "category": "effects_skills",
+    "name": "pink_magic_circle"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\04_特效与技能\\04_紫色魔法阵.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\effects_skills\\04_purple_magic_circle.png",
+    "size": [
+      74,
+      63
+    ],
+    "category": "effects_skills",
+    "name": "purple_magic_circle"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\04_特效与技能\\05_星光爆发.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\effects_skills\\05_starlight_burst.png",
+    "size": [
+      43,
+      45
+    ],
+    "category": "effects_skills",
+    "name": "starlight_burst"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\04_特效与技能\\06_水波魔法阵.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\effects_skills\\06_water_magic_circle.png",
+    "size": [
+      74,
+      40
+    ],
+    "category": "effects_skills",
+    "name": "water_magic_circle"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\05_UI面板与窗口\\01_小型信息面板.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\ui_panels\\01_small_info_panel.png",
+    "size": [
+      87,
+      75
+    ],
+    "category": "ui_panels",
+    "name": "small_info_panel"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\05_UI面板与窗口\\02_横向状态面板.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\ui_panels\\02_horizontal_status_panel.png",
+    "size": [
+      70,
+      75
+    ],
+    "category": "ui_panels",
+    "name": "horizontal_status_panel"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\05_UI面板与窗口\\03_大型卡片面板.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\ui_panels\\03_large_card_panel.png",
+    "size": [
+      90,
+      135
+    ],
+    "category": "ui_panels",
+    "name": "large_card_panel"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\05_UI面板与窗口\\04_纵向详情面板.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\ui_panels\\04_vertical_detail_panel.png",
+    "size": [
+      90,
+      135
+    ],
+    "category": "ui_panels",
+    "name": "vertical_detail_panel"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\05_UI面板与窗口\\05_小型辅助面板.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\ui_panels\\05_small_helper_panel.png",
+    "size": [
+      73,
+      75
+    ],
+    "category": "ui_panels",
+    "name": "small_helper_panel"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\05_UI面板与窗口\\06_顶部资源状态栏.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\ui_panels\\06_top_resource_status_bar.png",
+    "size": [
+      632,
+      92
+    ],
+    "category": "ui_panels",
+    "name": "top_resource_status_bar"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\05_UI面板与窗口\\07_右侧塔详情面板.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\ui_panels\\07_right_tower_detail_panel.png",
+    "size": [
+      370,
+      618
+    ],
+    "category": "ui_panels",
+    "name": "right_tower_detail_panel"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\06_UI按钮\\01_暂停按钮.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\ui_buttons\\01_pause_button.png",
+    "size": [
+      24,
+      66
+    ],
+    "category": "ui_buttons",
+    "name": "pause_button"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\06_UI按钮\\02_二倍速按钮.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\ui_buttons\\02_speed_x2_button.png",
+    "size": [
+      55,
+      66
+    ],
+    "category": "ui_buttons",
+    "name": "speed_x2_button"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\06_UI按钮\\03_自动按钮.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\ui_buttons\\03_auto_button.png",
+    "size": [
+      63,
+      66
+    ],
+    "category": "ui_buttons",
+    "name": "auto_button"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\06_UI按钮\\04_技能按钮.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\ui_buttons\\04_skill_button.png",
+    "size": [
+      42,
+      65
+    ],
+    "category": "ui_buttons",
+    "name": "skill_button"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\06_UI按钮\\05_金色主按钮.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\ui_buttons\\05_gold_primary_button.png",
+    "size": [
+      95,
+      50
+    ],
+    "category": "ui_buttons",
+    "name": "gold_primary_button"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\06_UI按钮\\06_升级按钮整块.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\ui_buttons\\06_upgrade_button_block.png",
+    "size": [
+      278,
+      81
+    ],
+    "category": "ui_buttons",
+    "name": "upgrade_button_block"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\06_UI按钮\\07_出售按钮整块.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\ui_buttons\\07_sell_button_block.png",
+    "size": [
+      278,
+      75
+    ],
+    "category": "ui_buttons",
+    "name": "sell_button_block"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\07_UI图标与装饰\\01_生命图标.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\ui_icons_decor\\01_life_icon.png",
+    "size": [
+      26,
+      61
+    ],
+    "category": "ui_icons_decor",
+    "name": "life_icon"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\07_UI图标与装饰\\02_金币图标.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\ui_icons_decor\\02_coin_icon.png",
+    "size": [
+      57,
+      62
+    ],
+    "category": "ui_icons_decor",
+    "name": "coin_icon"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\07_UI图标与装饰\\03_星星图标.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\ui_icons_decor\\03_star_icon.png",
+    "size": [
+      25,
+      39
+    ],
+    "category": "ui_icons_decor",
+    "name": "star_icon"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\07_UI图标与装饰\\04_宝石图标.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\ui_icons_decor\\04_gem_icon.png",
+    "size": [
+      57,
+      37
+    ],
+    "category": "ui_icons_decor",
+    "name": "gem_icon"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\07_UI图标与装饰\\05_蝴蝶结.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\ui_icons_decor\\05_bow.png",
+    "size": [
+      30,
+      36
+    ],
+    "category": "ui_icons_decor",
+    "name": "bow"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\07_UI图标与装饰\\06_花朵装饰.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\ui_icons_decor\\06_flower_decor.png",
+    "size": [
+      59,
+      37
+    ],
+    "category": "ui_icons_decor",
+    "name": "flower_decor"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\07_UI图标与装饰\\07_爱心技能图标.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\ui_icons_decor\\07_heart_skill_icon.png",
+    "size": [
+      107,
+      112
+    ],
+    "category": "ui_icons_decor",
+    "name": "heart_skill_icon"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\08_整屏组件\\01_顶部资源与波次区.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\screen_components\\01_top_hud_wave_area.png",
+    "size": [
+      1252,
+      104
+    ],
+    "category": "screen_components",
+    "name": "top_hud_wave_area"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\08_整屏组件\\02_底部防御塔选择栏.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\screen_components\\02_bottom_tower_select_bar.png",
+    "size": [
+      1025,
+      190
+    ],
+    "category": "screen_components",
+    "name": "bottom_tower_select_bar"
+  },
+  {
+    "source": "fanzhi\\img\\xiaomox\\magic_girl_td_psd_assets\\png_layers\\08_整屏组件\\03_右下速度音乐设置区.png",
+    "path": "fanzhi\\assets\\images\\xiaomox\\screen_components\\03_bottom_right_controls.png",
+    "size": [
+      470,
+      190
+    ],
+    "category": "screen_components",
+    "name": "bottom_right_controls"
+  }
+]
