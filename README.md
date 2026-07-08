@@ -67,6 +67,18 @@ tools/godot/Godot_v4.7-stable_win64_console.exe
 - 本地资料库如果要保存“拿来就能玩”的版本，请额外复制整个 `output/` 文件夹。
 - 若以后希望通过 GitHub 分发游戏，建议把 EXE 和 PCK 上传到 GitHub Release，而不是提交到源码仓库。
 
+## 部署到 Vercel
+
+项目同时提供不使用浏览器多线程的 Godot Web 导出配置，因此不需要额外配置 COOP/COEP 响应头。
+
+1. 双击 `一键打包网页版.bat`，生成 `web/` 静态文件。
+2. 将包含 `web/` 和 `vercel.json` 的项目源码提交到 GitHub。
+3. 在 Vercel 导入该 GitHub 仓库，框架保持 `Other`，其余使用仓库配置即可。
+
+Vercel 只托管 `web/` 中的 HTML、JavaScript、WebAssembly 和 PCK 文件；访问者使用现代浏览器即可游玩，不需要安装 Godot。
+
+Web 导出需要本机安装 Godot 4.7 Web 模板。若一键脚本提示缺少模板，可在 Godot 的“编辑器 → 管理导出模板”中只安装 Web 模板。
+
 ## 项目目录
 
 - `scenes/`：标题菜单和主游戏场景。
@@ -74,11 +86,14 @@ tools/godot/Godot_v4.7-stable_win64_console.exe
 - `assets/images/menu/`：标题界面运行素材。
 - `assets/images/xiaomox/`：魔法少女塔防运行素材。
 - `assets/audio/`：当前主题音乐、魔法音效及音频说明。
+- `assets/fonts/`：Web 版使用的精简中文字体及授权说明。
 - `data/towers.json`：魔法塔数值配置。
 - `data/waves.json`：预留的波次配置，目前实际刷怪逻辑仍在 `Game.gd` 中。
 - `img/`：魔法少女和菜单的原始拆分美术。
 - `design/`：界面设计概念稿。
 - `export_presets.cfg`：Windows 导出配置。
+- `web/`：可直接部署到 Vercel 的 Godot Web 产物。
+- `vercel.json`：Vercel 静态输出目录配置。
 
 ## 音频说明
 
