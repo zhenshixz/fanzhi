@@ -3,5 +3,25 @@
   "framework": null,
   "installCommand": "",
   "buildCommand": null,
-  "outputDirectory": "web"
+  "outputDirectory": "web",
+  "headers": [
+    {
+      "source": "/index.wasm",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/index.pck",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ]
 }
