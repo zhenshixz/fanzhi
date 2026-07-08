@@ -47,8 +47,6 @@ func _ready() -> void:
 	var texture_path := _texture_path_for_title()
 	if ResourceLoader.exists(texture_path):
 		_texture = load(texture_path)
-	elif ResourceLoader.exists("res://assets/images/hero_invader_cutout.png"):
-		_texture = load("res://assets/images/hero_invader_cutout.png")
 	if _texture:
 		_rig = FloatRigScript.new()
 		_rig.setup(_texture, _texture_scale_for_title(), Color.WHITE if armor < 4.0 else Color("#fef3c7"), randf() * TAU)

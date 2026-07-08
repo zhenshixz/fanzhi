@@ -1,20 +1,8 @@
-# Audio Attribution
+# 当前音频清单
 
-## Music
+游戏仅使用当前魔法少女版本的音频：
 
-- `music/southern_gothic.mp3`
-- Track: "Southern Gothic"
-- Author: Kevin MacLeod
-- Source: https://incompetech.com/
-- License: Creative Commons Attribution 4.0
+- `music/magic_girl_theme.wav`：背景音乐。
+- `sfx_magic/*.wav`：界面、建造、升级、攻击、命中、消灭、漏怪和技能音效。
 
-## Sound Effects
-
-Sound effects are selected from Kenney audio packs:
-
-- RPG Audio
-- Impact Sounds
-- Interface Sounds
-
-Source: https://kenney.nl/assets  
-License: CC0 1.0 Universal
+仓库中没有记录这些文件的外部作者或授权来源。若将游戏公开发布，需先补充并确认音频授权信息。

@@ -166,8 +166,6 @@ func _apply_game_values() -> void:
 
 func _setup_layers() -> void:
 	var background_path := "res://assets/images/xiaomox/backgrounds/magic_garden_map.png"
-	if not ResourceLoader.exists(background_path):
-		background_path = "res://assets/images/dungeon_battlefield_v2.png"
 	if ResourceLoader.exists(background_path):
 		var background_texture: Texture2D = load(background_path)
 		if background_texture:

@@ -47,8 +47,7 @@ func play_sfx(kind: String) -> void:
 func _load_sfx() -> void:
 	for kind in ["ui", "build", "upgrade", "shot", "hit", "death", "leak", "quake"]:
 		var stream = _load_first_existing([
-			"res://assets/audio/sfx_magic/%s.wav" % kind,
-			"res://assets/audio/sfx/%s.ogg" % kind
+			"res://assets/audio/sfx_magic/%s.wav" % kind
 		])
 		if stream:
 			_sfx[kind] = stream

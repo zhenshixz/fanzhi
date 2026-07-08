@@ -30,8 +30,6 @@ func _ready() -> void:
 	z_index = 25
 	if ResourceLoader.exists("res://assets/images/xiaomox/effects_skills/05_starlight_burst.png"):
 		_texture = load("res://assets/images/xiaomox/effects_skills/05_starlight_burst.png")
-	elif ResourceLoader.exists("res://assets/images/curse_orb_cutout.png"):
-		_texture = load("res://assets/images/curse_orb_cutout.png")
 	if _texture:
 		_sprite = Sprite2D.new()
 		_sprite.texture = _texture

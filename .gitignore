@@ -4,4 +4,3 @@ output/
 godot-*.log
 *.tmp
 *.translation
-export_presets.cfg
